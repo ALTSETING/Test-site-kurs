@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #111;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  width: 300px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.price {
+  font-size: 32px;
+  margin: 20px 0;
+  color: #00ffcc;
+}
+
+.buy-btn {
+  display: block;
+  padding: 15px;
+  background: #635bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buy-btn:hover {
+  background: #4a42cc;
+}
+
+.secure {
+  font-size: 12px;
+  margin-top: 15px;
+  opacity: 0.6;
+}
